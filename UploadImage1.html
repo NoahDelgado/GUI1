@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="py-3 mb-3 border-bottom">
+        <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+            <a href="Home.html">
+                <img src="Images/logo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <div class="d-flex align-items-center">
+                <form class="w-100 me-3" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+                <a href="#" class="d-block link-body-emphasis text-decoration-none " data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="Images/user.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="text-center">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons" style="background-color: #A5AA52;">
+                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option1" style="background-color: #CDC776;">Photo</label>
+                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+                <label class="btn btn-secondary" for="option1" style="background-color: #A5AA52; ">Gallery</label>
+            </div>
+        </div>
+        <div class="text-center">
+            <br>
+            <img src="Images/importer.png" alt="mdo" width="100" height="100">
+
+        </div>
+        <div class="row text-center" style="margin-top: 10px;">
+            <div class="col">
+                <img src="Images/IMG_7568.jpeg" class="w-100 shadow-1-strong rounded mb-4" width="32" height="180"
+                    alt="Animals" />
+
+                <img src="Images/IMG_3174.jpeg" class="w-100 shadow-1-strong rounded mb-4" width="32" height="180"
+                    alt="Animals" />
+                <img src="Images/IMG_7736.jpeg" class="w-100 shadow-1-strong rounded mb-4" width="32" height="180"
+                    alt="Animals" />
+
+            </div>
+            <div class="col">
+                <img src="Images/IMG_7603.jpeg" class="w-100 shadow-1-strong rounded mb-4" width="32" height="180"
+                    alt="Animals" />
+
+                <img src="Images/IMG_7578.jpeg" class="w-100 shadow-1-strong rounded mb-4" width="32" height="180"
+                    alt="Animals" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7"></div>
+            <button type="button" class="btn btn-primary col-4 " style="background-color: #A5AA52;">Next</button>
+        </div>
+    </div>
+</body>
+
+</html>
